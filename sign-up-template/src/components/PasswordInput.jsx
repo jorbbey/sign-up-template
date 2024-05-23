@@ -19,7 +19,7 @@ const PasswordInput = () => {
       <button
         type="button"
         onClick={togglePasswordVisibility}
-        className="absolute m-80"
+        className="absolute ml-60 md:ml-52 lg:ml-80"
       >
         {isPasswordVisible ? (
           <p className="text-gray-400 uppercase text-xs">hide</p>
